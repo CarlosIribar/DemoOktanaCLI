@@ -17,7 +17,7 @@
                         <a href="javascript:void(0);" class="slds-nav-vertical__action" aria-describedby="entity-header">Secondary</a>
                     </li>
                     <li class="{!v.selectedLevel == 'Tertiary' ?'slds-nav-vertical__item slds-is-active' : slds-nav-vertical__item}" onclick="{!c.setTertiary}">
-                        <a href="javascript:void(0);" class="slds-nav-vertical__action" aria-describedby="entity-header">Terciarios</a>
+                        <a href="javascript:void(0);" class="slds-nav-vertical__action" aria-describedby="entity-header">Terciary</a>
                     </li>
                 </ul>
             </div>
