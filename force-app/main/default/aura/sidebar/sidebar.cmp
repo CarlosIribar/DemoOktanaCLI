@@ -8,16 +8,16 @@
                 <h2 id="entity-header" class="slds-nav-vertical__title slds-text-title_caps">Category</h2>
                 <ul>
                     <li class="{!v.selectedLevel == 'All' ?'slds-nav-vertical__item slds-is-active' : slds-nav-vertical__item}" onclick="{!c.setAll}">
-                        <a href="javascript:void(0);" class="slds-nav-vertical__action" aria-describedby="entity-header" aria-current="page">All</a>
+                        <a href="javascript:void(0);" class="slds-nav-vertical__action" aria-describedby="entity-header" aria-current="page">Todos</a>
                     </li>
                     <li class="{!v.selectedLevel == 'Primary' ?'slds-nav-vertical__item slds-is-active' : slds-nav-vertical__item}" onclick="{!c.setPrimary}">
                         <a href="javascript:void(0);" class="slds-nav-vertical__action" aria-describedby="entity-header">Primary</a>
                     </li>
                     <li class="{!v.selectedLevel == 'Secondary' ?'slds-nav-vertical__item slds-is-active' : slds-nav-vertical__item}" onclick="{!c.setSecondary}">
-                        <a href="javascript:void(0);" class="slds-nav-vertical__action" aria-describedby="entity-header">Secondary </a>
+                        <a href="javascript:void(0);" class="slds-nav-vertical__action" aria-describedby="entity-header">Secondary</a>
                     </li>
                     <li class="{!v.selectedLevel == 'Tertiary' ?'slds-nav-vertical__item slds-is-active' : slds-nav-vertical__item}" onclick="{!c.setTertiary}">
-                        <a href="javascript:void(0);" class="slds-nav-vertical__action" aria-describedby="entity-header">Terciary</a>
+                        <a href="javascript:void(0);" class="slds-nav-vertical__action" aria-describedby="entity-header">Terciario</a>
                     </li>
                 </ul>
             </div>
