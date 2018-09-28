@@ -11,7 +11,7 @@
                         <a href="javascript:void(0);" class="slds-nav-vertical__action" aria-describedby="entity-header" aria-current="page">All</a>
                     </li>
                     <li class="{!v.selectedLevel == 'Primary' ?'slds-nav-vertical__item slds-is-active' : slds-nav-vertical__item}" onclick="{!c.setPrimary}">
-                        <a href="javascript:void(0);" class="slds-nav-vertical__action" aria-describedby="entity-header">Primarios</a>
+                        <a href="javascript:void(0);" class="slds-nav-vertical__action" aria-describedby="entity-header">Primario</a>
                     </li>
                     <li class="{!v.selectedLevel == 'Secondary' ?'slds-nav-vertical__item slds-is-active' : slds-nav-vertical__item}" onclick="{!c.setSecondary}">
                         <a href="javascript:void(0);" class="slds-nav-vertical__action" aria-describedby="entity-header">Secondary</a>
